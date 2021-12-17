@@ -95,28 +95,28 @@ final kServicesLinks = [
 
 // projects
 final kProjectsBanner = [
-  "assets/projects/hereiamB.png",
-  "assets/projects/covidB.png",
+  "assets/projects/galaxy.jpeg",
+  "assets/projects/paisaje.jpeg",
 ];
 
 final kProjectsIcons = [
-  "assets/projects/medkit.png",
-  "assets/projects/quran.png",
+  "assets/projects/java.png",
+  "assets/projects/earbender.png",
 ];
 
 final kProjectsTitles = [
-  "Proyecto 1",
-  "Proyecto 2",
+  "Prácticas de TDI",
+  "MatLab Filters",
 ];
 
 final kProjectsDescriptions = [
-  "A Phramacy app developed using Flutter powered with Firebase as database with Doctor and Patient panels.",
-  "Application of Holy book of Muslims, Al-Qur'an. Developed using Flutter. Powered with live RestAPI given in README.md",
+  "Prácticas llevadas a Cabo en la universidad de Almería sobre el tratamiento de imagenes en blanco y negro, rotación de estas.",
+  "Filtros MatLab para un trabajo de TDI",
 ];
 
 final kProjectsLinks = [
-  "https://github.com/pcoloc",
-  "https://github.com/pcoloc",
+  "https://github.com/pcoloc/Practicas-TDI",
+  "https://github.com/pcoloc/Matlab-Filters",
 ];
 // Contact
 final kContactIcons = [
