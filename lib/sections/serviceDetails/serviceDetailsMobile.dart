@@ -42,7 +42,7 @@ class _ServiceDetailsMobileState extends State<ServiceDetailsMobile> {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               AdaptiveText(
-                "My Previous Work",
+                "Mis trabajos anteriores",
                 style: TextStyle(
                   color:
                       _themeProvider.lightTheme ? Colors.black : Colors.white,
@@ -126,7 +126,7 @@ class _ServiceDetailsMobileState extends State<ServiceDetailsMobile> {
               Align(
                 alignment: Alignment.center,
                 child: AdaptiveText(
-                  "Get in Touch!",
+                  "Mantengamosnos en contacto!",
                   style: GoogleFonts.montserrat(
                       color: _themeProvider.lightTheme
                           ? Colors.black
@@ -138,7 +138,7 @@ class _ServiceDetailsMobileState extends State<ServiceDetailsMobile> {
                 alignment: Alignment.center,
                 child: CustomFilledBtn(
                   height: 40.0,
-                  onPressed: () => launchURL("https://wa.me/?text=Hi Hamza!"),
+                  onPressed: () => launchURL("https://wa.me/?text=Hola Paco!"),
                   btnColor: Color(0xff34CB62),
                   child: Row(
                     mainAxisSize: MainAxisSize.min,
@@ -155,8 +155,7 @@ class _ServiceDetailsMobileState extends State<ServiceDetailsMobile> {
                 alignment: Alignment.center,
                 child: CustomFilledBtn(
                   height: 40.0,
-                  onPressed: () => launchURL(
-                      "https://www.upwork.com/freelancers/~0197b0f6aaeba9675f"),
+                  onPressed: () => launchURL("https://paco.lopezcarrillo.com"),
                   btnColor: Color(0xff13A800),
                   child: Row(
                     mainAxisSize: MainAxisSize.min,
@@ -167,7 +166,7 @@ class _ServiceDetailsMobileState extends State<ServiceDetailsMobile> {
                         color: Colors.white,
                       ),
                       const SizedBox(width: 8.0),
-                      Text("Upwork"),
+                      Text("Paco"),
                     ],
                   ),
                 ),

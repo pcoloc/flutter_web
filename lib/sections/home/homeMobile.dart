@@ -41,7 +41,7 @@ class _HomeMobileState extends State<HomeMobile> {
                   mainAxisSize: MainAxisSize.min,
                   children: [
                     Text(
-                      "HEY THERE! ",
+                      "¡HOLA! ",
                       style: GoogleFonts.montserrat(
                           fontSize: height * 0.025,
                           color: _themeProvider.lightTheme
@@ -59,7 +59,7 @@ class _HomeMobileState extends State<HomeMobile> {
                   height: height * 0.01,
                 ),
                 Text(
-                  "Muhammad",
+                  "Paco",
                   style: GoogleFonts.montserrat(
                       fontSize: height * 0.055,
                       color: _themeProvider.lightTheme
@@ -69,7 +69,7 @@ class _HomeMobileState extends State<HomeMobile> {
                       letterSpacing: 1.1),
                 ),
                 Text(
-                  "Hamza",
+                  "López",
                   style: GoogleFonts.montserrat(
                       color: _themeProvider.lightTheme
                           ? Colors.black
@@ -93,9 +93,11 @@ class _HomeMobileState extends State<HomeMobile> {
                                 : Colors.white,
                             fontWeight: FontWeight.w200),
                         text: [
-                          " Flutter Developer",
-                          " Technical Writer",
-                          " UI/UX Enthusiast"
+                          " (Casi) Ingeniero Informático",
+                          " FullStack Web Java Developer",
+                          " DevOps",
+                          "Inteligencia Artifical y Machine Learning",
+                          "CiberSeguridad"
                         ]),
                   ],
                 ),

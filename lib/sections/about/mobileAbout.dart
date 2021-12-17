@@ -28,8 +28,8 @@ class AboutMobile extends StatelessWidget {
       color: _themeProvider.lightTheme ? Colors.white : Colors.black,
       child: Column(
         children: [
-          CustomSectionHeading(text: "\nAbout Me"),
-          CustomSectionSubHeading(text: "Get to know me :)"),
+          CustomSectionHeading(text: "\nSobre mi"),
+          CustomSectionSubHeading(text: "Conóceme :)"),
           Image.asset(
             'assets/mob.png',
             height: height * 0.27,
@@ -40,7 +40,7 @@ class AboutMobile extends StatelessWidget {
           Align(
             alignment: Alignment.centerLeft,
             child: Text(
-              "Who am I?",
+              "¿Quién soy?",
               style: GoogleFonts.montserrat(
                 color: kPrimaryColor,
                 fontSize: height * 0.025,
@@ -51,7 +51,7 @@ class AboutMobile extends StatelessWidget {
             height: height * 0.028,
           ),
           Text(
-            "I'm Muhammad Hamza, a Flutter developer, Technical blog writer and UI designer.",
+            "Soy Paco López, (Casi) Ingeniero Informático y fanático en la tecnología.",
             style: GoogleFonts.montserrat(
               fontSize: height * 0.022,
               fontWeight: FontWeight.w400,
@@ -62,7 +62,7 @@ class AboutMobile extends StatelessWidget {
             height: height * 0.02,
           ),
           Text(
-            "I'm a Final Year Computer Science student enrolled in COMSATS University, Islamabad. I have been developing mobile apps for over 1.5 years now. I have worked in teams for various startups and helped them in launching their prototypes and got valuable learning experience. I'm an active Google Developer Student Clubs (DSC) lead and also CEO/Founder Flutter Islamabad, Pakistan.",
+            "Soy Paco López, desarrollador FullStack Java junior en InnoQA S.L y terminando mis estudios del Grado de Ingeniería Informática con la mención de Tecnologías de la Información en la Universidad de Almería, en España.",
             style: GoogleFonts.montserrat(
               fontSize: height * 0.018,
               color: Colors.grey[500],
@@ -85,7 +85,7 @@ class AboutMobile extends StatelessWidget {
           Align(
             alignment: Alignment.centerLeft,
             child: Text(
-              "Technologies I have worked with:",
+              "Tecnologías con las que he trabajado:",
               style: GoogleFonts.montserrat(
                   color: kPrimaryColor, fontSize: height * 0.015),
             ),
@@ -120,13 +120,13 @@ class AboutMobile extends StatelessWidget {
             height: height * 0.02,
           ),
           AboutMeMetaData(
-            data: "Name",
-            information: "Muhammad Hamza",
+            data: "Nombre",
+            information: "Paco López",
             alignment: Alignment.centerLeft,
           ),
           AboutMeMetaData(
             data: "Email",
-            information: "hamza.6.shakeel@gmail.com",
+            information: "pcoloc@protonmail.com",
             alignment: Alignment.centerLeft,
           ),
           SizedBox(
@@ -139,14 +139,14 @@ class AboutMobile extends StatelessWidget {
                 Padding(
                   padding: const EdgeInsets.all(8.0),
                   child: OutlinedCustomBtn(
-                      btnText: "Resume",
+                      btnText: "En Definitiva",
                       onPressed: () {
                         kIsWeb
                             ? html.window.open(
-                                'https://drive.google.com/uc?export=view&id=1OOdcdGEN3thVvpZ4cl_MM0LT-GCMuLIE',
+                                'https://drive.google.com/uc?export=view&id=14fauPDxSf-FHiLBLAWXuv2zX7IkolPfX',
                                 "pdf")
                             : launchURL(
-                                'https://drive.google.com/uc?export=view&id=1OOdcdGEN3thVvpZ4cl_MM0LT-GCMuLIE');
+                                'https://drive.google.com/uc?export=view&id=14fauPDxSf-FHiLBLAWXuv2zX7IkolPfX');
                       }),
                 ),
                 Container(

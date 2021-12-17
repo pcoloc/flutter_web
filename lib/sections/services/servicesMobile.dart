@@ -16,9 +16,9 @@ class ServiceMobile extends StatelessWidget {
     return Container(
       child: Column(
         children: [
-          CustomSectionHeading(text: "\nWhat I Do"),
+          CustomSectionHeading(text: "\n¿Qué puedo hacer?"),
           CustomSectionSubHeading(
-              text: "I may not be perfect, but I'm surely of some help :)\n\n"),
+              text: "Si me necesitas, ayudaré en todo lo que pueda  :)\n\n"),
           CarouselSlider.builder(
             itemCount: 5,
             itemBuilder: (BuildContext context, int itemIndex, int i) =>

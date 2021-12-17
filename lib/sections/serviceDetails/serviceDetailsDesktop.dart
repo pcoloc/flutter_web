@@ -91,7 +91,7 @@ class ServiceDetailsDescription extends StatelessWidget {
                     ),
                     const SizedBox(width: 8.0),
                     AdaptiveText(
-                      "I don't have MacBook, that's why I only work with Android/Web",
+                      "Desarrollo en todo tipo de sistemas.",
                       style: TextStyle(
                           color: _themeProvider.lightTheme
                               ? Colors.black
@@ -113,7 +113,7 @@ class ServiceDetailsDescription extends StatelessWidget {
           Align(
             alignment: Alignment.center,
             child: AdaptiveText(
-              "Get in Touch!",
+              "Mantengamosnos en contacto!",
               style: GoogleFonts.montserrat(
                   color:
                       _themeProvider.lightTheme ? Colors.black : Colors.white),
@@ -124,7 +124,7 @@ class ServiceDetailsDescription extends StatelessWidget {
             alignment: Alignment.center,
             child: CustomFilledBtn(
               height: 40.0,
-              onPressed: () => launchURL("https://wa.me/?text=Hi Hamza!"),
+              onPressed: () => launchURL("https://wa.me/?text=Hi Paco!"),
               btnColor: Color(0xff34CB62),
               child: Row(
                 mainAxisSize: MainAxisSize.min,
@@ -141,8 +141,7 @@ class ServiceDetailsDescription extends StatelessWidget {
             alignment: Alignment.center,
             child: CustomFilledBtn(
               height: 40.0,
-              onPressed: () => launchURL(
-                  "https://www.upwork.com/freelancers/~0197b0f6aaeba9675f"),
+              onPressed: () => launchURL("https://paco.lopezcarrillo.com"),
               btnColor: Color(0xff13A800),
               child: Row(
                 mainAxisSize: MainAxisSize.min,
@@ -153,7 +152,7 @@ class ServiceDetailsDescription extends StatelessWidget {
                     color: Colors.white,
                   ),
                   const SizedBox(width: 8.0),
-                  Text("Upwork"),
+                  Text("Paco"),
                 ],
               ),
             ),
@@ -199,7 +198,7 @@ class _ServicesShowCaseState extends State<ServicesShowCase> {
         crossAxisAlignment: CrossAxisAlignment.start,
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          AdaptiveText(" My Previous Work",
+          AdaptiveText("Mis trabajos anteriores",
               style: GoogleFonts.montserrat(
                   fontSize: 24.0,
                   letterSpacing: 1.2,
@@ -220,8 +219,7 @@ class _ServicesShowCaseState extends State<ServicesShowCase> {
               ),
               kProjectsTitles[_currentIndex] == kProjectsTitles[1]
                   ? InkWell(
-                      onTap: () => launchURL(
-                          "https://play.google.com/store/apps/details?id=com.hmz.al_quran&pli=1"),
+                      onTap: () => launchURL("https://www.google.es"),
                       child: Icon(
                         FontAwesomeIcons.googlePlay,
                         color: Colors.green,

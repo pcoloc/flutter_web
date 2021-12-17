@@ -15,12 +15,12 @@ const kSocialIcons = [
 ];
 
 const kSocialLinks = [
-  "https://facebook.com/mhmzdev",
-  "https://instagram.com/mhmzdev",
-  "https://twitter.com/mhmzdev",
-  "https://linkedin.com/in/mhmzdev",
-  "https://github.com/mhmzdev",
-  "https://mhamzadev.medium.com"
+  "https://facebook.com/",
+  "https://instagram.com/pacoreturns",
+  "https://twitter.com/plisdoge",
+  "https://linkedin.com/in/francisco-josé-lópez-carrillo-27871bb1",
+  "https://github.com/pcoloc",
+  "https://pcoloc.github.io"
 ];
 
 // URL Launcher
@@ -35,21 +35,21 @@ final kCommunityLogo = [
 ];
 
 final kCommunityLinks = [
-  "https://www.comsats.edu.pk/",
-  "https://web.facebook.com/FlutterIslamabadPakistan/",
-  "https://dsc.community.dev/comsats-university-islamabad/"
+  "https://www.reddit.com/",
+  "https://web.facebook.com/",
+  "https://pcoloc.github.io"
 ];
 
 // Tools & Tech
 final kTools = [
-  "Flutter",
-  "Dart",
+  "JavaScript",
+  "CyberSegurity",
   "Python",
   "Java",
   "C++",
   "HTML",
   "CSS",
-  "Bootstrap"
+  "SQL"
 ];
 
 // services
@@ -86,11 +86,11 @@ final kServicesDescriptions = [
 ];
 
 final kServicesLinks = [
-  "https://www.fiverr.com/hamza6shakeel/be-your-mobile-app-developer-via-flutter",
-  "https://www.fiverr.com/hamza6shakeel/get-you-modern-ui-design-using-adobe-xd",
-  "https://www.fiverr.com/hamza6shakeel/be-your-mobile-app-developer-via-flutter",
-  "https://mhamzadev.medium.com",
-  "https://github.com/mhmzdev"
+  "https://www.fiverr.com/",
+  "https://www.fiverr.com/",
+  "https://www.fiverr.com/",
+  "https://medium.com",
+  "https://github.com/pcoloc",
 ];
 
 // projects
@@ -115,9 +115,9 @@ final kProjectsDescriptions = [
 ];
 
 final kProjectsLinks = [
-  "https://github.com/mhmzdev/MedKit-Pharmacy-App-Using-Flutter",  
-  "https://github.com/mhmzdev/The_Holy_Quran_App",
-
+  "https://github.com/pcoloc",
+  "https://github.com/pcoloc",
+];
 // Contact
 final kContactIcons = [
   Icons.home,
@@ -126,13 +126,9 @@ final kContactIcons = [
 ];
 
 final kContactTitles = [
-  "Location",
-  "Phone",
+  "Ubicación",
+  "Teléfono",
   "Email",
 ];
 
-final kContactDetails = [
-  "almería, Spain",
-  "****",
-  "pcoloc@protonmail.com"
-];
+final kContactDetails = ["España", "****", "pcoloc@protonmail.com"];

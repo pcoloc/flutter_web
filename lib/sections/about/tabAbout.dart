@@ -27,8 +27,8 @@ class AboutTab extends StatelessWidget {
       color: _themeProvider.lightTheme ? Colors.white : Colors.black,
       child: Column(
         children: [
-          CustomSectionHeading(text: "\nAbout Me"),
-          CustomSectionSubHeading(text: "Get to know me :)"),
+          CustomSectionHeading(text: "\nSobre mi"),
+          CustomSectionSubHeading(text: "Conóceme :)"),
           Image.asset(
             'assets/mob.png',
             height: height * 0.3,
@@ -39,7 +39,7 @@ class AboutTab extends StatelessWidget {
           Align(
             alignment: Alignment.centerLeft,
             child: Text(
-              "Who am I?",
+              "¿Quién soy?",
               style: GoogleFonts.montserrat(
                   color: kPrimaryColor, fontSize: height * 0.028),
             ),
@@ -48,7 +48,7 @@ class AboutTab extends StatelessWidget {
             height: height * 0.032,
           ),
           Text(
-            "I'm Muhammad Hamza, a Flutter developer, Technical blog writer and UI designer.",
+            "Soy Paco López, (Casi) Ingeniero Informático y fanático en la tecnología.",
             style: GoogleFonts.montserrat(
               fontSize: height * 0.035,
               fontWeight: FontWeight.w400,
@@ -59,7 +59,7 @@ class AboutTab extends StatelessWidget {
             height: height * 0.02,
           ),
           Text(
-            "I'm a Final Year Computer Science student enrolled in COMSATS University, Islamabad. I have been developing mobile apps for over 1.5 years now. I have worked in teams for various startups and helped them in launching their prototypes and got valuable learning experience. I'm an active Google Developer Student Clubs (DSC) lead and also CEO/Founder Flutter Islamabad, Pakistan.",
+            "Soy Paco López, desarrollador FullStack Java junior en InnoQA S.L y terminando mis estudios del Grado de Ingeniería Informática con la mención de Tecnologías de la Información en la Universidad de Almería, en España.",
             style: GoogleFonts.montserrat(
               fontSize: height * 0.02,
               color: Colors.grey[500],
@@ -82,7 +82,7 @@ class AboutTab extends StatelessWidget {
           Align(
             alignment: Alignment.centerLeft,
             child: Text(
-              "Technologies I have worked with:",
+              "Tecnologías en las que trabajo:",
               style: GoogleFonts.montserrat(
                   color: kPrimaryColor, fontSize: height * 0.018),
             ),
@@ -114,12 +114,12 @@ class AboutTab extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   AboutMeMetaData(
-                    data: "Name",
-                    information: "Muhammad Hamza",
+                    data: "Nombre",
+                    information: "Paco López",
                   ),
                   AboutMeMetaData(
-                    data: "Age",
-                    information: "23",
+                    data: "Edad",
+                    information: "25",
                   ),
                 ],
               ),
@@ -131,11 +131,11 @@ class AboutTab extends StatelessWidget {
                 children: [
                   AboutMeMetaData(
                     data: "Email",
-                    information: "hamza.6.shakeel@gmail.com",
+                    information: "pcoloc@protonmail.com",
                   ),
                   AboutMeMetaData(
-                    data: "From",
-                    information: "Attock, PK",
+                    data: "Ubicación",
+                    information: "España",
                   ),
                 ],
               ),
@@ -149,14 +149,14 @@ class AboutTab extends StatelessWidget {
               Padding(
                 padding: const EdgeInsets.all(8.0),
                 child: OutlinedCustomBtn(
-                    btnText: "Resume",
+                    btnText: "En definitiva",
                     onPressed: () {
                       kIsWeb
                           ? html.window.open(
-                              'https://drive.google.com/uc?export=view&id=1OOdcdGEN3thVvpZ4cl_MM0LT-GCMuLIE',
+                              'https://drive.google.com/uc?export=view&id=14fauPDxSf-FHiLBLAWXuv2zX7IkolPfX',
                               "pdf")
                           : launchURL(
-                              'https://drive.google.com/uc?export=view&id=1OOdcdGEN3thVvpZ4cl_MM0LT-GCMuLIE');
+                              'https://drive.google.com/uc?export=view&id=14fauPDxSf-FHiLBLAWXuv2zX7IkolPfX');
                     }),
               ),
               Container(

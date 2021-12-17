@@ -28,8 +28,8 @@ class AboutDesktop extends StatelessWidget {
       color: _themeProvider.lightTheme ? Colors.white : Colors.black,
       child: Column(
         children: [
-          CustomSectionHeading(text: "\nAbout Me"),
-          CustomSectionSubHeading(text: "Get to know me :)"),
+          CustomSectionHeading(text: "\nSobre mi"),
+          CustomSectionSubHeading(text: "Conóceme :)"),
           SizedBox(height: 30.0),
           Row(
             children: [
@@ -47,7 +47,7 @@ class AboutDesktop extends StatelessWidget {
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       AdaptiveText(
-                        "Who am I?",
+                        "¿Quién soy?",
                         style: GoogleFonts.montserrat(
                             color: kPrimaryColor, fontSize: height * 0.025),
                       ),
@@ -55,7 +55,7 @@ class AboutDesktop extends StatelessWidget {
                         height: height * 0.03,
                       ),
                       AdaptiveText(
-                        "I'm Muhammad Hamza, a Flutter developer, Technical blog writer and UI designer.",
+                        "Soy Paco López, (Casi) Ingeniero Informático y fanático en la tecnología.",
                         style: GoogleFonts.montserrat(
                           fontSize: height * 0.035,
                           fontWeight: FontWeight.w400,
@@ -68,7 +68,7 @@ class AboutDesktop extends StatelessWidget {
                         height: height * 0.02,
                       ),
                       AdaptiveText(
-                        "I'm a Final Year Computer Science student enrolled in COMSATS University, Islamabad. I have been developing mobile apps for over 1.5 years now. I have worked in teams for various startups and helped them in launching their prototypes and got valuable learning experience. I'm an active Google Developer Student Clubs (DSC) lead and also CEO/Founder Flutter Islamabad, Pakistan.",
+                        "Soy Paco López, desarrollador FullStack Java junior en InnoQA S.L y terminando mis estudios del Grado de Ingeniería Informática con la mención de Tecnologías de la Información en la Universidad de Almería, en España. ",
                         style: GoogleFonts.montserrat(
                           fontSize: height * 0.02,
                           color: Colors.grey[500],
@@ -81,8 +81,8 @@ class AboutDesktop extends StatelessWidget {
                       Container(
                         decoration: BoxDecoration(
                           border: Border(
-                            bottom:
-                                BorderSide(color: Colors.grey[800]!, width: 2.0),
+                            bottom: BorderSide(
+                                color: Colors.grey[800]!, width: 2.0),
                           ),
                         ),
                       ),
@@ -90,7 +90,7 @@ class AboutDesktop extends StatelessWidget {
                         height: height * 0.02,
                       ),
                       AdaptiveText(
-                        "Technologies I have worked with:",
+                        "Tecnologías con las que he trabajado:",
                         style: GoogleFonts.montserrat(
                             color: kPrimaryColor, fontSize: height * 0.018),
                       ),
@@ -108,8 +108,8 @@ class AboutDesktop extends StatelessWidget {
                       Container(
                         decoration: BoxDecoration(
                           border: Border(
-                            bottom:
-                                BorderSide(color: Colors.grey[800]!, width: 2.0),
+                            bottom: BorderSide(
+                                color: Colors.grey[800]!, width: 2.0),
                           ),
                         ),
                       ),
@@ -120,12 +120,12 @@ class AboutDesktop extends StatelessWidget {
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
                           AboutMeMetaData(
-                            data: "Name",
-                            information: "Muhammad Hamza",
+                            data: "Nombre",
+                            information: "Paco López",
                           ),
                           AboutMeMetaData(
                             data: "Email",
-                            information: "hamza.6.shakeel@gmail.com",
+                            information: "pcoloc@protonmail.com",
                           ),
                         ],
                       ),
@@ -139,10 +139,10 @@ class AboutDesktop extends StatelessWidget {
                             child: OutlinedCustomBtn(
                               onPressed: () {
                                 html.window.open(
-                                    'https://drive.google.com/file/d/1GF-wtbu2ob_Uxhw2In2QA8QiYi3XjCj1/view?usp=sharing',
+                                    'https://drive.google.com/file/d/14fauPDxSf-FHiLBLAWXuv2zX7IkolPfX/view?usp=sharing',
                                     "pdf");
                               },
-                              btnText: "Resume",
+                              btnText: "En Definitiva",
                             ),
                           ),
                           Container(

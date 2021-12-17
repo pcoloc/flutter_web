@@ -31,9 +31,9 @@ class _ServiceDesktopState extends State<ServiceDesktop> {
       padding: EdgeInsets.symmetric(horizontal: width * 0.02),
       child: Column(
         children: [
-          CustomSectionHeading(text: "\nWhat I Do"),
+          CustomSectionHeading(text: "\n¿Qué puedo hacer?"),
           CustomSectionSubHeading(
-              text: "I may not be perfect, but I'm surely of some help :)\n\n"),
+              text: "Si me necesitas, ayudaré en todo lo que pueda :)\n\n"),
           Column(
             children: [
               Row(
@@ -156,7 +156,7 @@ class ServiceCardBackWidget extends StatelessWidget {
                       );
           },
           child: Text(
-            "Details",
+            "Detalles",
             style: GoogleFonts.montserrat(
               fontWeight: FontWeight.w300,
               color: _themeProvider.lightTheme ? Colors.black : Colors.white,
@@ -183,7 +183,7 @@ class ServiceCardBackWidget extends StatelessWidget {
                           ? Colors.white
                           : Colors.grey[900],
                       title: AdaptiveText(
-                        "Hire Me!",
+                        "Contrátame!",
                         style: TextStyle(
                             fontSize: 32.0,
                             color: _themeProvider.lightTheme
@@ -193,7 +193,7 @@ class ServiceCardBackWidget extends StatelessWidget {
                       actions: [
                         TextButton(
                             onPressed: () => Navigator.pop(context),
-                            child: Text("Back"))
+                            child: Text("Atrás"))
                       ],
                       content: Column(
                         mainAxisSize: MainAxisSize.min,
@@ -202,7 +202,7 @@ class ServiceCardBackWidget extends StatelessWidget {
                           CustomFilledBtn(
                             height: 40.0,
                             onPressed: () =>
-                                launchURL("https://wa.me/?text=Hi Hamza!"),
+                                launchURL("https://wa.me/?text=Hola Paco!"),
                             btnColor: Color(0xff34CB62),
                             child: Row(
                               mainAxisSize: MainAxisSize.min,
@@ -216,8 +216,8 @@ class ServiceCardBackWidget extends StatelessWidget {
                           const SizedBox(height: 20.0),
                           CustomFilledBtn(
                             height: 40.0,
-                            onPressed: () => launchURL(
-                                "https://www.upwork.com/freelancers/~0197b0f6aaeba9675f"),
+                            onPressed: () =>
+                                launchURL("https://paco.lopezcarrillo.com"),
                             btnColor: Color(0xff13A800),
                             child: Row(
                               mainAxisSize: MainAxisSize.min,
@@ -228,7 +228,7 @@ class ServiceCardBackWidget extends StatelessWidget {
                                   color: Colors.white,
                                 ),
                                 const SizedBox(width: 8.0),
-                                Text("Upwork"),
+                                Text("Paco"),
                               ],
                             ),
                           ),
@@ -236,7 +236,7 @@ class ServiceCardBackWidget extends StatelessWidget {
                       ),
                     )),
             child: Text(
-              "HIRE ME!",
+              "¡CONTRÁTAME!",
               style: TextStyle(
                   color: Colors.white,
                   fontWeight: FontWeight.bold,

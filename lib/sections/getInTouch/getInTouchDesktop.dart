@@ -61,10 +61,10 @@ class _GetInTouchDesktopState extends State<GetInTouchDesktop> {
 
   launchMailTo() async {
     final mailToLink = Mailto(
-      to: ["hamza.6.shakeel@gmil.com"],
+      to: ["pcoloc@protonmail.com"],
       subject: _projectType,
       body: _msgController.text.isEmpty
-          ? "Some message here"
+          ? "Envíame un mensaje."
           : _msgController.text,
     );
 
@@ -121,9 +121,9 @@ class _GetInTouchDesktopState extends State<GetInTouchDesktop> {
                                 : Colors.white,
                           ),
                           text: [
-                            " Let's work together!",
-                            " To build something great!",
-                            " Something, that matters!"
+                            " Trabajemos juntos!",
+                            " ¡Hagamos algo grande!",
+                            " Crear cosas es la especialidad!",
                           ]),
                     ],
                   ),
@@ -137,7 +137,7 @@ class _GetInTouchDesktopState extends State<GetInTouchDesktop> {
                           mainAxisSize: MainAxisSize.min,
                           children: [
                             AdaptiveText(
-                              "Project Type",
+                              "Tipo de proyecto",
                               style: GoogleFonts.montserrat(
                                 color: _themeProvider.lightTheme
                                     ? Colors.black
@@ -241,7 +241,7 @@ class _GetInTouchDesktopState extends State<GetInTouchDesktop> {
                           mainAxisSize: MainAxisSize.min,
                           children: [
                             AdaptiveText(
-                              "Estimated Budget",
+                              "Tiempo de funcionamiento",
                               style: GoogleFonts.montserrat(
                                 color: _themeProvider.lightTheme
                                     ? Colors.black
@@ -289,7 +289,7 @@ class _GetInTouchDesktopState extends State<GetInTouchDesktop> {
                     ],
                   ),
                   const SizedBox(height: 8.0),
-                  _projectType == "Flutter - Mobile Development"
+                  _projectType == "Flutter - Desarrollo App y Web"
                       ? Row(
                           mainAxisSize: MainAxisSize.min,
                           children: [
@@ -300,7 +300,7 @@ class _GetInTouchDesktopState extends State<GetInTouchDesktop> {
                             ),
                             const SizedBox(width: 8.0),
                             AdaptiveText(
-                              "I don't have MacBook so I can only develop apps for Android.",
+                              "Android, iOS, Web, lo que se venga.",
                               style: TextStyle(
                                   color: _themeProvider.lightTheme
                                       ? Colors.black
@@ -318,7 +318,7 @@ class _GetInTouchDesktopState extends State<GetInTouchDesktop> {
                           mainAxisSize: MainAxisSize.min,
                           children: [
                             AdaptiveText(
-                              "Project Duration",
+                              "Duración del proyecto",
                               style: GoogleFonts.montserrat(
                                 color: _themeProvider.lightTheme
                                     ? Colors.black
@@ -377,7 +377,7 @@ class _GetInTouchDesktopState extends State<GetInTouchDesktop> {
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
                             AdaptiveText(
-                              "Message:",
+                              "Mensaje:",
                               style: GoogleFonts.montserrat(
                                 color: _themeProvider.lightTheme
                                     ? Colors.black
@@ -421,10 +421,10 @@ class _GetInTouchDesktopState extends State<GetInTouchDesktop> {
                                   height: 40.0,
                                   width: 200,
                                   child: OutlinedCustomBtn(
-                                    btnText: "Send",
+                                    btnText: "Enviar",
                                     onPressed: () {
                                       launchURL(
-                                          "mailto:hamza.6.shakeel@gmail.com?subject=SOMESUBJECT&body=SOMEMSG");
+                                          "mailto:pcolos@protonmail.com?subject=SOMESUBJECT&body=SOMEMSG");
                                     },
                                   ),
                                 )

@@ -30,11 +30,11 @@ class _MainPageState extends State<MainPage> {
   ScrollController _scrollController = ScrollController();
 
   final List<String> _sectionsName = [
-    "HOME",
-    "ABOUT",
-    "SERVICES",
-    "PROJECTS",
-    "CONTACT"
+    "INICIO",
+    "SOBRE MI",
+    "SERVICIOS",
+    "PROYECTOS",
+    "CONTACTO"
   ];
 
   final List<IconData> _sectionsIcons = [
@@ -240,11 +240,11 @@ class _MainPageState extends State<MainPage> {
                   side: BorderSide(color: kPrimaryColor)),
               onPressed: () {
                 html.window.open(
-                    'https://drive.google.com/file/d/1GF-wtbu2ob_Uxhw2In2QA8QiYi3XjCj1/view?usp=sharing',
+                    'https://drive.google.com/uc?export=view&id=14fauPDxSf-FHiLBLAWXuv2zX7IkolPfX',
                     "pdf");
               },
               child: Text(
-                "RESUME",
+                "EN DEFINITIVA",
                 style: GoogleFonts.montserrat(
                   color: _themeProv.lightTheme ? Colors.black : Colors.white,
                   fontWeight: FontWeight.w300,
@@ -292,7 +292,7 @@ class _MainPageState extends State<MainPage> {
                   Icons.light_mode,
                   color: kPrimaryColor,
                 ),
-                title: Text("Dark Mode",
+                title: Text("Modo Oscuro",
                     style: TextStyle(
                         color: theme.lightTheme ? Colors.black : Colors.white)),
                 trailing: Switch(
@@ -318,7 +318,7 @@ class _MainPageState extends State<MainPage> {
                       side: BorderSide(color: kPrimaryColor)),
                   onPressed: () {
                     launchURL(
-                        "https://drive.google.com/file/d/1GF-wtbu2ob_Uxhw2In2QA8QiYi3XjCj1/view?usp=sharing");
+                        "https://drive.google.com/file/d/14fauPDxSf-FHiLBLAWXuv2zX7IkolPfX/view?usp=sharing");
                   },
                   child: ListTile(
                     leading: Icon(
@@ -326,7 +326,7 @@ class _MainPageState extends State<MainPage> {
                       color: Colors.red,
                     ),
                     title: Text(
-                      "RESUME",
+                      "EN DEFINITIVA",
                       style: GoogleFonts.montserrat(
                         fontWeight: FontWeight.w300,
                         color: theme.lightTheme ? Colors.black : Colors.white,
